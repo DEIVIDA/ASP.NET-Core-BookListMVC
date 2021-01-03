@@ -30,7 +30,7 @@ namespace BookListMVC.Controllers
             Book = new Book();
             if (id == null)
             {
-            //create
+                //create
                 return View(Book);
             }
             //update
